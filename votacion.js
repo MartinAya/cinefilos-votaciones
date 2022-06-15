@@ -14,6 +14,7 @@ async function fun() {
     nominaciones = nominaciones.map((s => {
         s = s.split('\'').join('')
         s = s.split('’').join('')
+        s = s.split('!').join('')
         return s
     }))
 
@@ -23,6 +24,7 @@ async function fun() {
     votos = votos.map((s => {
         s = s.split('\'').join('')
         s = s.split('’').join('')
+        s = s.split('!').join('')
         return s
     }))
 
